@@ -1,12 +1,12 @@
 {
   "name": "test-electron-raspberry-pi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just a test to see how electron perform in raspberry",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make --arch arm64"
   },
   "author": "",
   "license": "ISC",
